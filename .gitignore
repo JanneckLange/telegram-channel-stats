@@ -1,0 +1,6 @@
+/.idea/
+/node_modules/
+*.session
+/docker-compose.yml
+/channel_messages.json
+/src/*.js

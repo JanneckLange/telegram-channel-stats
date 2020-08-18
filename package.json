@@ -1,0 +1,25 @@
+{
+  "name": "telegram_channel_stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "python": "python src/messenges.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "cron": "^1.8.2",
+    "http": "0.0.1-security",
+    "moment": "^2.27.0",
+    "mongodb": "^3.6.0",
+    "node-cron": "^2.0.3",
+    "python-shell": "^2.0.1",
+    "request": "^2.88.2",
+    "telegraf": "^3.38.0",
+    "typescript-logging": "^1.0.0"
+  }
+}
