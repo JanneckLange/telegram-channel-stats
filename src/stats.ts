@@ -8,10 +8,10 @@ export class Stats {
 
 
     constructor() {
-        this.telegraf = new nodeBot(process.env.BOT_ID);
+        this.telegraf = new nodeBot(process.env.BOT_TOKEN);
         this.telegraf.use(session());
 
-        this.telegram = new Telegram(process.env.BOT_ID);
+        this.telegram = new Telegram(process.env.BOT_TOKEN);
     }
 
     async getChannelFollowerCount(): Promise<number> {
